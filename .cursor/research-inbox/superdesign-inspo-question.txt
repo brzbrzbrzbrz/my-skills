@@ -1,0 +1,11 @@
+What public Cursor and Claude agent skills and documented workflows exist as of September 2026 for combining Superdesign (repository superdesigndev/superdesign-skill, canvas drafts via the Superdesign CLI) with Inspo MCP (repository nutlope/inspo, hosted at inspomcp.dev; tools include recommend, search_screens, get_screen, get_design_system, find_examples_for_macrostructure, find_similar, find_by_color, find_reference_components, and get_reference_jsx)?
+
+Answer these points with citations to primary sources:
+
+1. Is there an existing glue skill that orchestrates Superdesign and Inspo together? Name repositories. If none, say so and name the closest neighbours.
+2. How does Superdesign's own inspiration path (search-prompts, get-prompts, extract-website, design-system.md) differ from Inspo's archive of real production sites?
+3. What workflow order, reference budget, and anti-copy rules do comparable research-first design skills use? Include referodesign/refero_skill and any official Inspo usage guidance.
+4. What should a thin orchestration skill specify so it does not fork or replace either upstream skill: when it triggers, the handoff into Superdesign, which Inspo fields to pass (URL, macrostructure, palette, fonts, fold autopsy), and what must not be copied (brand, copy, decoration)?
+5. Known failure modes when one agent session uses both tools.
+
+Do not treat InspoAI (inspoai.io) as the same product as nutlope/inspo.
